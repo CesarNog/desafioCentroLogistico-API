@@ -31,6 +31,14 @@
             <scope>test</scope>
         </dependency>
         <!-- end::tests[] -->
+        
+        <!-- tag::stackdriver-logging[] -->
+        <dependency>
+          <groupId>org.fluentd</groupId>
+          <artifactId>fluent-logger</artifactId>
+          <version>0.3.2</version>
+        </dependency>
+        <!-- end::stackdriver-logging[] -->
     </dependencies>
 
     <properties>
