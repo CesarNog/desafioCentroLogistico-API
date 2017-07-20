@@ -1,4 +1,4 @@
-package hello;
+package com.ciandt.api.logistic;
 
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RequestMapping;

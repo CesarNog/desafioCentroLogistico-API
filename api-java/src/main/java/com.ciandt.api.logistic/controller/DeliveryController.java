@@ -10,18 +10,16 @@ import com.ciandt.api.logistic.Delivery;
 @RestController
 public class DeliveryController {
 
-    private static final String template = "Hello, %s!";
     private final AtomicLong counter = new AtomicLong();
 
     @RequestMapping("/delivery")
-    public Delivery delivery(@RequestParam(value="name", defaultValue="World") String name) {
+    public Delivery delivery() {
         return new Delivery(counter.incrementAndGet(),
-                            String.format(template, name));
+                            String.format(template));
     }
 
     @RequestMapping("/delivery/{deliveryId}/step")
-    public Delivery deliveryStep(@RequestParam(value="name", defaultValue="World") String name) {
-        return new Delivery(counter.incrementAndGet(),
-                            String.format(template, name));
+    public Delivery deliveryStep(@RequestParam(value="deliveryId") long deliveryId) {
+        return new Delivery(counter.incrementAndGet(), deliveryId);
     }
 }
