@@ -13,6 +13,12 @@ Este guia foi feito para detalhar mais sobre a API do Desafio de Centro Logísti
 == O que é este branch?
 Neste branch é encontrada a API que resolve o desafio do Centro Logístico.
 include::https://github.com/CesarNog/desafioCentroLogistico-API/blob/master/Hands%20On%20-%20Desafio%20do%20centro%20logi%CC%81stico%202.0.pdf[]
+== Link da API hospedada no Google Cloud> 
+https://8080-dot-2467443-dot-devshell.appspot.com/?authuser=0#
+
+ou com Kubernetes em 3 nós:
+
+http://104.198.170.95:8080/delivery
 
 == Do que você precisará para rodar esta API
 
