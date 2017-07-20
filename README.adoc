@@ -1,5 +1,5 @@
 ---
-tags: [java, spring-boot]
+tags: [java, spring-boot, API]
 Projeto: [logistic-center-challenge]
 ---
 :spring_boot_version: 1.5.3.RELEASE
@@ -8,10 +8,7 @@ Projeto: [logistic-center-challenge]
 :icons: font
 :source-highlighter: prettify
 :project_id: gs-spring-boot
-This guide provides a sampling of how {spring-boot}[Spring Boot] helps you accelerate and facilitate application development. As you read more Spring Getting Started guides, you will see more use cases for Spring Boot.
-It is meant to give you a quick taste of Spring Boot. If you want to create your own Spring Boot-based project, visit 
-http://start.spring.io/[Spring Initializr], fill in your project details, pick your options, and you can download either
-a Maven build file, or a bundled up project as a zip file.
+Este guia foi feito para detalhar mais sobre a API do Desafio de Centro Logístico e mostrar como subi-la em seu Google Cloud Engine.
 
 == O que é este branch?
 Neste branch é encontrada a API que resolve o desafio do Centro Logístico.
